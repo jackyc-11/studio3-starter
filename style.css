@@ -1,0 +1,28 @@
+* {
+    font-family: "Helvetica Neue", "Segoe UI", sans-serif;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px;
+}
+
+input[type="text"] {
+    width: 300px;
+    margin-right: 10px;
+}
+
+input[type="checkbox"],
+button {
+    margin-right: 10px;
+}
+
+input[type="checkbox"]:checked + input[type="text"] {
+    color: #888;
+    text-decoration: line-through;
+    font-style: italic;
+}
